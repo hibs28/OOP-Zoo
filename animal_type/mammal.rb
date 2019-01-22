@@ -1,6 +1,13 @@
+require_relative '../animal'
 class Mammal
-  include Animals
-  def self.traits
-    puts 'Are warm blooded nad have vetbraes'
+  include Animal
+
+  def traits
+    puts 'Are warm blooded and have vetbraes'
   end
+
+  def birth
+   puts 'They give birth'
+  end
+
 end
