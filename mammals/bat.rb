@@ -10,6 +10,4 @@ class Bat < Mammal
   def eat 
     puts 'fruitbats eat fruit'
   end
-
-
 end

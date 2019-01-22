@@ -1,4 +1,5 @@
 require_relative '../animal'
+
 class Mammal
   include Animal
 
@@ -9,5 +10,4 @@ class Mammal
   def birth
    puts 'They give birth'
   end
-
 end
