@@ -1,3 +1,3 @@
-class Keeper
+class Keeper < Employee
   
 end

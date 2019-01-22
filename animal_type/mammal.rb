@@ -1,6 +1,6 @@
 class Mammal
   include Animals
-  def initialize
-    
+  def self.traits
+    puts 'Are warm blooded nad have vetbraes'
   end
 end
